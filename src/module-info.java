@@ -1,2 +1,3 @@
-module LineComparison {
+module LineComparisonProblem {
+	exports linecomparison;
 }
