@@ -9,10 +9,11 @@ public class LinecomparisonUc2 {
 	}
 	public static void main(String[] args) {
 		LinecomparisonUc2 obj = new LinecomparisonUc2();
-		double line1 = obj.distancecal(1,1,1,1);
-		double line2 = obj.distancecal(1,2,3,4);
+		Double line1 = obj.distancecal(1,1,1,1);
+		Double line2 = obj.distancecal(1,2,3,4);
 		System.out.println("Distance" +line1);
 		System.out.println("Distance" +line2);
+		System.out.println("line 1 and line 2 are equal.True or False :" +line1.equals(line2));
 	}
 
 }
